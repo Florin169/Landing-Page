@@ -1,0 +1,52 @@
+.hero-text-section {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text-section button {
+  width: 220px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  font-size: 23px;
+  cursor: pointer;
+  background-color: rgb(50, 50, 201);
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.hero-text-section button:hover {
+  background-color: rgb(23, 23, 134);
+  transition: 0.4s ease-in-out;
+}
+
+#hero-text {
+  font-size: 70px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 25px;
+}
+
+.hero-text-section p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media screen and (max-width: 375px) {
+  #hero-text {
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+
+  .hero-text-section button {
+    width: 180px;
+    font-size: 20px;
+  }
+
+  .hero-text-section p {
+    font-size: 10px;
+  }
+}
